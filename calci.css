@@ -1,0 +1,22 @@
+
+.calci {
+    margin: 10% auto;
+    width: 60%;
+    background-color: rgba(10, 100, 100, 0.3);
+    height: 50vh;
+    box-shadow: 2px 6px 16px rgba(0, 0, 0, 0.5), 3px 13px 15px rgba(0, 0, 0, 0.7);
+}
+tr {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5), 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+td {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+td:hover {
+    color: green;
+    background-color: black;
+}

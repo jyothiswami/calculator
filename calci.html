@@ -1,0 +1,46 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculater</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="calci.css" />
+</head>
+<body>
+<table class="calci" border="2">
+      <tr>
+          <td colspan="5" id="result">0</td>
+      </tr>
+
+        <tr>
+            <td colspan="2" onclick="clearEverything()">CE</td>
+            <td onclick="clearLast()">C</td>
+            <td colspan="2" onclick="sumItUp()">=</td>
+        </tr>
+
+      <tr>
+          <td onclick="add(1)">1</td>
+          <td onclick="add(2)">2</td>
+          <td onclick="add(3)">3</td>
+          <td onclick="add(4)">4</td>
+          <td onclick="add(5)">5</td>
+      </tr>
+      <tr>
+            <td onclick="add(6)">6</td>
+            <td onclick="add(7)">7</td>
+            <td onclick="add(8)">8</td>
+            <td onclick="add(9)">9</td>
+            <td onclick="add(0)">0</td>
+        </tr>
+        <tr>
+                <td onclick="add('+')">+</td>
+                <td onclick="add('-')">-</td>
+                <td onclick="add('*')">*</td>
+                <td onclick="add('/')">/</td>
+                <td onclick="add('.')">.</td>
+        </tr>
+</table>
+<script src="calci.js"></script>
+</body>
+</html>
